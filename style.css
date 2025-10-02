@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gogo_header {
+  height: 93px;
+  width: 100vw;
+  padding: 0px 40px;
+  display: flex;
+}
+.gogo-logo {
+  width: 200px;
+  height: 43px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+}
+.vector {
+  width: 20px;
+  height: 20px;
+}
+.header_container-left {
+  display: flex;
+  gap: 40px;
+}
+.header_container-right {
+  display: flex;
+  gap: 40px;
+}
+.extra-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sun-icon {
+  width: 20px;
+  height: 20px;
+}
+.extra-link-item {
+  display: flex;
+  gap: 20px;
+}
+.extra-link-item-green {
+  color: chartreuse;
+  font-size: 20px;
+}
+.extra-link-item:nth-child(3) {
+}
