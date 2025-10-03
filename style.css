@@ -113,13 +113,12 @@
 }
 .girls-pic:hover {
   transform: scale(1.2);
-  filter: grayscale(1);
 }
 .news-grid2:hover .girls-pic-text {
   display: block;
 }
 .girls-pic-text {
-  display: none;
+  /* display: none; */
   color: white;
   font-size: 16px;
   position: absolute;
