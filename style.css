@@ -11,9 +11,10 @@
 }
 .gogo_header {
   height: 93px;
-  width: 100vw;
-  padding: 0px 40px;
+  /* width: 100vw; */
   display: flex;
+  margin: 0px 252px;
+  padding: 0px 40px;
 }
 .gogo-logo {
   width: 200px;
@@ -24,12 +25,14 @@
   gap: 40px;
 }
 .vector {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 45px;
+  padding-right: ;
 }
 .header_container-left {
   display: flex;
   gap: 40px;
+  padding-right: 30px;
 }
 .header_container-right {
   display: flex;
@@ -39,6 +42,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.menu-item {
+  font-style: bold;
 }
 .sun-icon {
   width: 20px;
@@ -53,4 +59,85 @@
   font-size: 20px;
 }
 .extra-link-item:nth-child(3) {
+}
+.news {
+  margin: 0px 252px;
+  padding: 0px 40px;
+}
+
+.news-grids-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1115px;
+  height: 385px;
+  gap: 15px;
+  /* margin: 0px 252px;
+  padding: 0px 40px; */
+  padding-top: 15px;
+}
+.news-grids {
+  flex-direction: column;
+  display: flex;
+  border-radius: 1%;
+  box-shadow: rgba(0, 0, 0, 0.08) 2px 4px 12px 0px;
+  width: 542px;
+  height: 385px;
+  padding-left: 40px;
+}
+.news-content1 {
+  height: 30px;
+  width: 73px;
+  background-image: linear-gradient(129deg, #c40097, #d6710b);
+  border-radius: 999px;
+  font-size: 12px;
+  color: white;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.news-content2 {
+  font-size: 26px;
+  font-style: bold;
+  margin: 10px 0px 20px;
+  padding: 10px 30px 0px 0px;
+}
+.news-content3 {
+  margin: 10px 0px 20px;
+  font-size: 13px;
+  color: darkgrey;
+}
+.girls-pic {
+  width: 542px;
+  height: 385px;
+  border-radius: 1%;
+  transition: transform 0.3s ease;
+}
+.girls-pic:hover {
+  transform: scale(1.2);
+  filter: grayscale(1);
+}
+.news-grid2:hover .girls-pic-text {
+  display: block;
+}
+.girls-pic-text {
+  display: none;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+}
+.news-content4 {
+  align-self: flex-start;
+}
+.share {
+  width: 65px;
+  height: 36px;
+  background-color: lightgray;
+  color: dimgrey;
+  border-radius: 999px;
+}
+.news-grid2 {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
